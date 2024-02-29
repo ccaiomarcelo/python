@@ -1,4 +1,4 @@
-saque = int(input('Quanto quer sacar, fdp?: '))
+saque = int(input('Quanto quer sacar: R$ '))
 
 rest100 = saque % 100
 
