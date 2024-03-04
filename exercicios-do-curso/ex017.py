@@ -1,6 +1,8 @@
+from math import hypot
+
 CatOp = float(input('Digite o Cateto Oposto: '))
 CatAd = float(input('Digita o Cateto Adjacente: '))
 
-hip = (CatOp*CatOp) + (CatAd*CatAd)
+hip = hypot(CatOp, CatAd)
 
-print(f'A hipotenusa ao quadrado é: {hip}\nA hipotenusa é: {hip**1/2}')
+print(f'Hipotenusa: {hip:.2f}')
