@@ -10,7 +10,7 @@ idades = []
 sexos = []
 for i in range (1, 5):
     print(f'----- {i}ª PESSOA -----')
-    nome = input('Nome: ')
+    nome = [input('Nome: ')]
     nomes.append(nome)
     idade = [int(input('Idade: '))]
     idades.append(idade)
@@ -23,3 +23,4 @@ if sexo[0] and sexo [1] and sexo[2] and sexo[3] == 'M':
     posidad = idades.find(midade)
     maisvelho = nomes[posidad]
 print(f'A média de idade do grupo é de {media} anos.')
+print(f'O homem mais velho é o {maisvelho}')
