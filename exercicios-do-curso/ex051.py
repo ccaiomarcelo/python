@@ -4,10 +4,8 @@
 print('=' * 10)
 print('10 termos de uma PA')
 print('=' * 10)
-
 termo = int(input('Digite o termo: '))
 razão = int(input('Digite a razão: '))
-
 for i in range(1, 11):
     print(termo, end=' > ')
     termo += razão
